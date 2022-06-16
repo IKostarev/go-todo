@@ -3,3 +3,4 @@ postgres 14.3
 gin 1.8.1
 viper 1.12.0
 sqlx 1.3.5
+godotenv 1.4.0
