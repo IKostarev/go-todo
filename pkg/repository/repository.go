@@ -1,8 +1,5 @@
 package repository
 
-import "github.com/IKostarev/go-todo/pkg/service"
-
-
 type Authorization interface {
 
 }
@@ -21,6 +18,6 @@ type Repository struct {
 	TodoItem
 }
 
-func NewRepository(services *service.Service) Repository {
-	return Repository{}
+func NewRepository() *Repository {
+	return &Repository{}
 }
