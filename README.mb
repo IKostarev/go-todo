@@ -5,3 +5,4 @@ viper 1.12.0
 sqlx 1.3.5
 godotenv 1.4.0
 logrus 1.8.1
+jwt-go v3.2.0
